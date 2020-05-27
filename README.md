@@ -1,8 +1,8 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/agimbaj/Blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Willkommen bei meinem Blog. Ich Berichte hier über meine Projekte, die ich in der Zeit in der GPB gemacht habe.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Das erste Projekt, was ich gemacht habe war eine Software, die überprüft wie viele Wörte in einem Wikipedia Artikel sind, diese werden dann ausgewertet und anhand eines Balkendiagrammes angezeigt. Außerdem kann der Benutzer nnach einem Wort selber suchen und je nach Angabe des Wortes verändert sich auch Balkendiagramm
 
 ### Markdown
 
