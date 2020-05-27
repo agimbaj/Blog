@@ -2,7 +2,7 @@
 
 Willkommen bei meinem Blog. Ich berichte hier über meine Projekte, die ich in der Zeit in der GPB gemacht habe.
 
-Das erste Projekt, was ich gemacht habe war eine Software, die überprüft wie viele Wörte in einem Wikipedia Artikel sind, diese werden dann ausgewertet und anhand eines Balkendiagrammes angezeigt. Außerdem kann der Benutzer nach einem Wort selber suchen und je nach Angabe des Wortes oder Buchstaben verändert sich auch das Balkendiagramm mit. Beim Codieren musste ich mich mit Regex, Linq und Xml auseinandersetzen. Im nächsten Abschnitt werde ich mal bisschen Code zeigen.
+Das erste Projekt, was ich gemacht habe war eine Software, die überprüft wie viele Wörte in einem Wikipedia Artikel sind, diese werden dann ausgewertet und anhand eines Balkendiagrammes angezeigt. Außerdem kann der Benutzer nach einem Wort selber suchen und je nach Angabe des Wortes oder Buchstaben verändert sich auch das Balkendiagramm mit. Beim Codieren musste ich mich mit Regex, Linq und Xml auseinandersetzen. Im nächsten Abschnitt werde ich näher darauf eingehen.
 
 ### Markdown
 
