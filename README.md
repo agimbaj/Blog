@@ -14,11 +14,25 @@ On _TextChanged Event
 ## Header 2
 ### Header 3
 
-- Bulleted
-- List
+MatchCollection matches = Regex.Matches(richTextBox1.Text, textBoxKeyword.Text,
+                                        RegexOptions.IgnoreCase);
+            //richTextBox und textBoxKeyword werden überprüft
 
-1. Numbered
-2. List
+            if (textBoxKeyword.TextLength > 0)
+            {
+                foreach (Match match in matches)
+                    //für jede übereinstimmung
+                {
+                    if (!stopWords.Contains(match.Value))
+                        //falls eine Übereinstimmung gefunden wurde
+                    {
+                        zaehler++;
+                        richTextBox1.Select(match.Index, textBoxKeyword.TextLength);
+                        richTextBox1.SelectionBackColor = Color.Yellow;
+                        //das Wort wird gelb makiert und der Zähler erhöht
+                    }
+                }
+            }
 
 **Bold** and _Italic_ and `Code` text
 
