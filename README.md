@@ -40,3 +40,9 @@ Nachdem ich mit dem Projekt fertig war habe ich mich zum ersten Mal mit Unity au
 ### Erstes Unity Projekt
 
 Nachdem ich fertig mit dem Tutorial war habe ich beschlossen mein eigenes Projekt zu starten. Die Idee ist ein First Person 3D Adventure Game zu kreieren in dem der User die Welt erkundet und Items sammeln kann. Außerdem soll er mit einer Waffe Monster töten und Erfahrungspunkte sammeln.
+Zur Zeit liegt mein Fortschritt bei ca 10%. Ich bin erst fertig mit dem Terrain und die Bewegung,Gravitation und Kamerabewegung des Players
+
+#### Terrain
+![Paintball - SampleScene - PC, Mac   Linux Standalone - Unity 2019 3 14f1 Personal  PREVIEW PACKAGES IN USE _ _DX11_ 27 05 2020 11_42_36 (2)](https://user-images.githubusercontent.com/64414327/83118782-1c32ff00-a0cf-11ea-8e74-2cdd64bc29fd.png)
+
+
