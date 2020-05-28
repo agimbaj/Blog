@@ -30,8 +30,8 @@ MatchCollection matches = Regex.Matches(richTextBox1.Text, textBoxKeyword.Text,
                 }
             }
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## GUI
+![Form1 07 05 2020 11_25_31](https://user-images.githubusercontent.com/64414327/81278606-3476a780-9056-11ea-83a0-3bfc9dd26e15.png)
 
 ### Jekyll Themes
 
