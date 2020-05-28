@@ -33,10 +33,10 @@ MatchCollection matches = Regex.Matches(richTextBox1.Text, textBoxKeyword.Text,
 #### Grafische Benutzeroberfläche
 ![Form1 07 05 2020 11_25_31](https://user-images.githubusercontent.com/64414327/81278606-3476a780-9056-11ea-83a0-3bfc9dd26e15.png)
 
-### Jekyll Themes
+### Unity Lernen
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/agimbaj/Blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Nachdem ich mit dem Projekt fertig war habe ich mich zum ersten Mal mit Unity auseinandergesetzt. Ich habe durch YouTube Videos bestimmte Dinge gelernt. Klicken Sie [hier](https://www.youtube.com/watch?v=DZbQRw-ftnU&list=PL_pqkvxZ6ho1g_e56fct7Cm6bgQBhmAqN) um auf die Playlist zu gelangen, die ich mir angeguckt habe und mitgeschrieben habe.
 
-### Support or Contact
+### Erstes Unity Projekt
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Nachdem ich fertig mit dem Tutorial war habe ich beschlossen mein eigenes Projekt zu starten. Die Idee ist ein First Person 3D Adventure Game zu kreieren in dem der User die Welt erkundet und Items sammeln kann. Außerdem soll er mit einer Waffe Monster töten und Erfahrungspunkte sammeln.
