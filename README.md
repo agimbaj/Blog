@@ -10,10 +10,6 @@ Das erste Projekt, was ich gemacht habe war eine Software, die überprüft wie v
 ```markdown
 On _TextChanged Event
 
-# Header 1
-## Header 2
-### Header 3
-
 MatchCollection matches = Regex.Matches(richTextBox1.Text, textBoxKeyword.Text,
                                         RegexOptions.IgnoreCase);
             //richTextBox und textBoxKeyword werden überprüft
@@ -21,7 +17,7 @@ MatchCollection matches = Regex.Matches(richTextBox1.Text, textBoxKeyword.Text,
             if (textBoxKeyword.TextLength > 0)
             {
                 foreach (Match match in matches)
-                    //für jede übereinstimmung
+                    //für jede Übereinstimmung
                 {
                     if (!stopWords.Contains(match.Value))
                         //falls eine Übereinstimmung gefunden wurde
@@ -33,10 +29,6 @@ MatchCollection matches = Regex.Matches(richTextBox1.Text, textBoxKeyword.Text,
                     }
                 }
             }
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
