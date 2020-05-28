@@ -50,4 +50,55 @@ Das Terrain hat eine Gesamtgröße von 12000 x 12000 x 12000 und besteht aus San
 #### Movement
 
 ```markdown
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewMovement : MonoBehaviour
+{
+    public CharacterController player;
+    public float jumpHoehe = 10f;
+    public float speed = 12f;
+    public float gravity = -9.81f;
+
+    public Transform groundCheck;
+    public float groundDistance = 0.4f;
+    public LayerMask groundLayer;
+
+    Vector3 velocity;
+
+    bool IsGrounded;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        IsGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundLayer);
+
+        if(IsGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
+        }
+
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+
+        Vector3 move = transform.right * x + transform.forward * z;
+
+        player.Move(move * speed * Time.deltaTime);
+
+        if(Input.GetButtonDown("Jump") && IsGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpHoehe * -2 * gravity);
+        }
+        velocity.y += gravity * Time.deltaTime;
+
+        player.Move(velocity * Time.deltaTime);
+    }
+}
 ```
+Code ist vom YouTuber: Brackeys
