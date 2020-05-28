@@ -47,7 +47,7 @@ Das Terrain hat eine Gesamtgröße von 12000 x 12000 x 12000 und besteht aus San
 
 ![Paintball - SampleScene - PC, Mac   Linux Standalone - Unity 2019 3 14f1 Personal  PREVIEW PACKAGES IN USE _ _DX11_ 27 05 2020 11_42_36 (2)](https://user-images.githubusercontent.com/64414327/83118782-1c32ff00-a0cf-11ea-8e74-2cdd64bc29fd.png)
 
-#### Movement
+#### Movement & Gravitation
 
 ```markdown
 using System.Collections;
@@ -98,6 +98,46 @@ public class NewMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         player.Move(velocity * Time.deltaTime);
+    }
+}
+```
+Code ist vom YouTuber: Brackeys
+
+#### Kamerabewegung
+
+```markdown
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MouseLook : MonoBehaviour
+{
+    public float mouseSensi = 100f;
+    public Transform player;
+    float xRotation = 0f;
+    // Start is called before the first frame update
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        mouseSensi = 1000f;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensi * Time.deltaTime;
+
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensi * Time.deltaTime;
+
+        xRotation -= mouseY;
+
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
+        player.Rotate(Vector3.up * mouseX);
+
+        
     }
 }
 ```
