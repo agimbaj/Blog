@@ -43,6 +43,11 @@ Nachdem ich fertig mit dem Tutorial war habe ich beschlossen mein eigenes Projek
 Zur Zeit liegt mein Fortschritt bei ca 10%. Ich bin erst fertig mit dem Terrain und die Bewegung,Gravitation und Kamerabewegung des Players
 
 #### Terrain
+Das Terrain hat eine Gesamtgröße von 12000 x 12000 x 12000 und besteht aus Sand, Moos, Lava, Stein, Erde, Eis und Laubblätter Texturen
+
 ![Paintball - SampleScene - PC, Mac   Linux Standalone - Unity 2019 3 14f1 Personal  PREVIEW PACKAGES IN USE _ _DX11_ 27 05 2020 11_42_36 (2)](https://user-images.githubusercontent.com/64414327/83118782-1c32ff00-a0cf-11ea-8e74-2cdd64bc29fd.png)
 
+#### Movement
 
+```markdown
+```
