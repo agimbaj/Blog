@@ -78,7 +78,7 @@ public class NewMovement : MonoBehaviour
     void Update()
     {
         IsGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundLayer);
-
+        
         if(IsGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
